@@ -2,17 +2,53 @@
 <html lang = "en">
 <head>
 <meta charset = "UTF-8">
-<title> test page for intro MOnline course</title>
+<title> test page for intro MOnline HTML course</title>
 </head>
     <body>
         <header>
             <h1>Lily Craighead</h1>
-            <a href="https://lcraighe.github.io/index#favfoods">Favorite Foods</a>
+            <nav>
+                <a href="#favfoods">One</a>
+                <a href="#two">Two</a>
+                <a href="#three">Three</a>
+                <a href="#favfoods">FavFoods</a>
+            </nav>
         </header>
 
         <main>
-            <h2>My Favorite Foods</h2>
             <a name ="favfoods"></a>
+            <h2>My Favorite Foods</h2>
+            <ul>
+                <li>Stir-Fry</li>
+                <li>Peaches</li>
+                <li>Pasta</li>
+                <li>Cheesecake</li>
+            </ul>
+
+            <a name="two"></a>
+            <h2>Achievements</h2>
+            <label for="course">Progress in this course (100%)</label>
+            <progress id="course" value="100" max="100"></progress>
+            <br>
+            <label for="specialization">Progress in the Specialization capstone (20%)</label>
+            <progress id="specialization" value="20" max="100"></progress>
+            <br>
+            <label for="college"></label>Progress in college (28%)</label>
+            <progress id="college" value="28" max="100"></progress>
+
+            <a name="three"></a>
+            <h2>More About Me</h2>
+            <details>
+                <summary>My Childhood</summary>
+                <p>I grew up in Mid-Michigan and I moved around a couple of times. 
+                    I played flute/piccalo band and viola in orchestra</p>
+              </details>
         </main>
+ 
+        <footer>
+            <img src ="http://www.intro-webdesign.com/images/newlogo.png" alt="course logo" width="50%">
+            <p>This page was created by Lily Craighead &amp Colleen van Lent. To learn more about web design, visit 
+            <a href="http://www.intro-webdesign.com" target ="_blank">Intro to Web Design.</a></p>
+        </footer>
     </body>
 </html>
