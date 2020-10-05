@@ -1,4 +1,4 @@
-/* h1 {
+h1 {
     background-color:#FFF378;
     text-align: center;
     color: #C20976;
@@ -18,44 +18,4 @@ a {
 
 img {
     display: none;
-}
-*/
-
-header{
-	background-color:#839192;
-	
-}
-
-h1{
-	padding:30px;
-	color:white;
-	text-align:center;
-	font-size:40px;
-	text-transform:uppercase;
-	display:block;
-}
-
-nav{
-	background-color:yellow;
-}
-
-
-nav a{
-	color:red;
-	font-size:24px;
-	font-family:Comic Sans MS;
-}
-
-
-section{
-	background-color:#F5B7B1;
-}
-
-h2{
-	color:#D35400;
-	font-size:26px;
-}
-
-img{
-	visibility:hidden;
 }
